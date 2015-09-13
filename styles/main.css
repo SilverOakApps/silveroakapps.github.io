@@ -1,0 +1,274 @@
+﻿html {
+    min-height: 100%;
+}
+
+body {
+    color: #ffffff;
+    min-height: 100%;
+    font-size: 16px;
+}
+
+a, a:active, a:hover {
+    color: #ffffff;
+}
+
+a.selected {
+    font-weight: bold;
+}
+
+.navBlock li {
+    text-align: right;
+    line-height: 2em;
+    font-size: 1.42em;
+}
+
+.navBlock li, .featureList li {
+    list-style: none;
+}
+
+.featureList {
+    margin-bottom: 1em;    
+}
+
+.featureList li {
+    clear: both;
+}
+
+.footer, .navHeader, .navBlock li, .rightColumn p, .rightColumn h1, .rightColumn h2, .rightColumn h4, .rightColumn h5 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.footer {
+    margin-top: 2em;
+}
+
+.navHeader {
+    margin-bottom: 2em;
+}
+
+.navBlock {
+    position: fixed;
+    top: 2em;
+    right: 68%;
+    z-index: 100;
+}
+
+.rightColumn {
+    float:right;
+	width:58%;
+	position:relative;
+	left:60%;
+    vertical-align: middle;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.section {
+    clear: both;
+    min-height: 100%;
+}
+
+.section, div.rightContainer, div.leftContainer {
+    height: 100%;
+}
+
+.rightContainer {
+    clear:left;
+	float:left;
+	width:100%;
+}
+
+.leftContainer {
+    float:left;
+	width:100%;
+	position:relative;
+	right:62%;
+}
+
+#home .leftContainer {
+    background-color: #4B4D51;
+                
+}
+#home .rightContainer {
+    background-color: #1A1C21;
+}
+
+#features .leftContainer {
+    background-color: #6FB0D9;
+                
+}
+#features .rightContainer {
+    background-color: #034066;
+}
+
+#demo .leftContainer {
+    background-color: #AB9261;
+                
+}
+#demo .rightContainer {
+    background-color: #705D39;
+}
+
+#support .leftContainer {
+    background-color: #4B4D51;  
+}
+
+#support .rightContainer {
+    background-color: #1A1C21;
+}
+
+.appName {
+    margin: -10px 0 0 -5px;
+    padding: 0;
+    line-height: 0.7em;
+}
+
+.appFirstName {
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.8em;
+    line-height: 1.2em;
+}
+
+.thumbImage {
+    border: 4px solid #B2C4D0;
+    width: 171px;
+    height: 96px;
+    vertical-align: middle;
+}
+
+.imageCaptionContainer {
+}
+
+.imageContainer {
+    line-height: 1em;
+    font-size: 1em;
+}
+
+.imageCaption {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+.imageDescription {
+    font-size: 1em;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+
+.light {
+    font-family: "Segoe UI Light", "Helvetica Neue", 'RobotoLight', "Segoe UI", "Segoe WP", sans-serif;
+    font-weight: 100;
+}
+
+.navHeader {
+    display: block;
+    margin-top: 2em;
+}
+
+.firstLine {
+    margin-top: 3em;
+}
+
+h2.callToActionLink {
+    padding: 10px;
+    margin: 5px auto;
+    line-height: 1em;
+    text-align: center;
+    background-color: #4B4D51;    
+}
+
+@media (max-width: 480px) {
+
+    body {
+       font-size: 10px; 
+    }
+
+    .featureList {
+        -webkit-padding-start: 0;
+    }
+
+    .navHeader {
+        text-align: center;    
+    }
+
+    .navBlock {
+        background-color: #1A1C21;
+        padding: 10px;
+        position: inherit;
+    }
+
+    .navBlock ul {
+        -webkit-padding-start: 0;
+        text-align: center;
+    }
+
+    .navBlock ul li {
+        display: inline;
+        margin-left: 5px;
+    }
+
+    .navBlock .footer {
+        display: none;
+    }
+
+    #home p {
+        text-align: center;
+    }
+
+    .appName {
+        margin: 0;
+        margin-top: -8px;
+        padding: 0;
+        line-height: 0.7em;
+    }
+
+    .firstLine {
+        margin-top: 1.2em;
+    }
+
+    .rightColumn {
+        left: 62%;
+        width: 96%;
+        padding: 2%;
+        text-align: center;
+    }
+
+    #home .leftContainer, #demo .leftContainer, #features .leftContainer {
+        background-color: inherit;
+    }
+
+    h2.callToActionLink {
+        text-align: center;
+        padding: 10px;
+        line-height: 1em;
+        background-color: #4B4D51;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 720px) {
+    body {
+       font-size: 12px; 
+    }
+
+    .firstLine {
+        margin-top: 1.5em;
+    }
+
+    .navBlock {
+        position: fixed;
+        top: 2em;
+        right: 64%;
+        z-index: 100;
+    }
+}

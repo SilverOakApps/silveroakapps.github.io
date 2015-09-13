@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>All About Money App For Windows 8</title>
+        <meta http-equiv="cleartype" content="on">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--[if lt IE 9]>
+            <script src="scripts/html5shiv.js"></script>
+        <![endif]-->
+        <link href="styles/metro.css" rel="stylesheet" />
+        <link href="styles/lightbox.css" rel="stylesheet" />
+        <link href="styles/main.css" rel="stylesheet" />
+    </head>
+    <body id="body">
+        
+        <div class="navBlock">
+
+            <div class="navHeader">
+                <h4 class="appFirstName">ALL ABOUT</h4>
+                <h1 class="appName">money</h1>
+                <h5>for Windows 8</h5>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#features">FEATURES</a></li>
+                    <!--<li><a href="#demo">DEMO</a></li>-->
+                    <li><a href="javascript:UserVoice.showPopupWidget();">SUPPORT</a></li>
+                </ul>
+            </nav>
+            
+            <div class="footer light">
+                © 2012 SilverOak Apps. <a href="apps/allaboutmoney/privacy">Privacy</a>
+            </div>
+        </div>
+
+        <section class="section" id="home">
+            <div class="rightContainer">
+                <div class="leftContainer">
+                    <div class="rightColumn">
+                        
+                        <p>
+                            Not sure how your money flows? 
+                            <br/>Can't figure out where to save?
+                        </p>
+                        
+                        <p>
+                            <br/>
+                            Then begin here. Get organised.<br/>
+                            Track your money using this app.<br/>
+                        </p>
+                        
+                        <p>
+                            <br/>All About Money - The easiest way to track your money.
+                            <br/>FREE for a limited time!
+                        </p>
+
+                        <h2 class="callToActionLink">
+                            <a href="http://apps.microsoft.com/webpdp/app/all-about-money/631ec736-43c4-4cc0-810f-728677969498" 
+                               title="Get it from the Store">Get it now</a>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section" id="features">
+            <div class="rightContainer">
+                <div class="leftContainer">
+                    <div class="rightColumn">
+                        
+                        <ul class="featureList">
+                            <li>
+                                <div class="imageCaptionContainer">
+                                    <p class="imageCaption">Summary Dashboard</p>
+                                    <p class="imageContainer">
+                                        <a href="screenshots/dashboard.png" title="Summary dashboard" rel="lightbox[screenshots]"><img class="thumbImage" src="screenshots/dashboard.png" alt="Dashboard" /></a>
+                                    </p>
+                                    <p class="imageDescription">See a summary of your income, expenses and savings</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="imageCaptionContainer">
+                                    <p class="imageCaption">Analyse Spending</p>
+                                    <p class="imageContainer">
+                                        <a href="screenshots/categories.png" title="Analyse spending" rel="lightbox[screenshots]"><img class="thumbImage" src="screenshots/categories.png" alt="Categorise Transactions" /></a>
+                                    </p>
+                                    <p class="imageDescription">Categorise your transactions and identify hotspots</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="imageCaptionContainer">
+                                    <p class="imageCaption">Manage Transactions</p>
+                                    <p class="imageContainer">
+                                        <a href="screenshots/manageTransactions.png" title="Manage transactions" rel="lightbox[screenshots]"><img class="thumbImage" src="screenshots/manageTransactions.png" alt="Manage Transactions" /></a>
+                                    </p>
+                                    <p class="imageDescription">See a summary of your income, expenses and savings</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="imageCaptionContainer">
+                                    <p class="imageCaption">Import Transactions</p>
+                                    <p class="imageContainer">
+                                        <a href="screenshots/import.png" title="Import transactions" rel="lightbox[screenshots]"><img class="thumbImage" src="screenshots/dashboard.png" alt="Import Transactions" /></a>
+                                    </p>
+                                    <p class="imageDescription">Quickly import transactions from CSV files</p>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <a href="screenshots/expensesByCategory.png" class="hide" rel="lightbox[screenshots]" title="Expenses by category">
+                            <img class="thumbImage" src="screenshots/expensesByCategory.png" alt="Expenses by category" />
+                        </a>
+                        <a href="screenshots/incomeSummaryByPeriod.png" class="hide" rel="lightbox[screenshots]" title="Income by period">
+                            <img class="thumbImage" src="screenshots/incomeSummaryByPeriod.png" alt="Income by period" />
+                        </a>
+                        <a href="screenshots/transactionDetails.png" class="hide" rel="lightbox[screenshots]" title="Transaction details">
+                            <img class="thumbImage" src="screenshots/transactionDetails.png" alt="Transaction details" />
+                        </a>
+                        <a href="screenshots/welcome.png" class="hide" rel="lightbox[screenshots]" title="Startup / Welcome screen">
+                            <img class="thumbImage" src="screenshots/welcome.png" alt="Startup / Welcome screen" />
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+<!--        <section class="section" id="demo">
+            <div class="rightContainer">
+                <div class="leftContainer">
+                    <div class="rightColumn">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>-->
+                
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script src="scripts/jquery.smooth-scroll.min.js"></script>
+        <script src="scripts/lightbox.js"></script>
+        <script>
+
+            $(function () {
+                
+                $('nav a').smoothScroll();
+                
+                $('.navBlock li a').on('click', function () {
+                    $('.navBlock li a').removeClass('selected');
+                    $(this).addClass('selected');
+                });
+
+            });
+            
+        </script>
+        
+        <script>
+            var uvOptions = {};
+            (function () {
+                var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+                uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/acmWR4HIDjLzHjreszhA.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+            })();
+        </script>
+        
+        <script type="text/javascript">
+
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36737874-1']);
+            _gaq.push(['_setDomainName', 'silveroakapps.com']);
+            _gaq.push(['_trackPageview']);
+
+            (function () {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        </script>
+
+
+    </body>
+</html>
